@@ -1,0 +1,12 @@
+server:
+    error:
+        include-stacktrace: on-param
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/amechallenge?useSSL=false&createDatabaseIfNotExists=true
+        username: postgres
+        password: postgres
+    jpa:
+        hibernate:
+            ddl-auto: update
